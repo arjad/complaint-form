@@ -1,25 +1,21 @@
 import React from 'react'
-import Nav from "../comp/nav"
-import Foot from "../comp/Foot"
+import Body from "../comp/login-data/body/body";
+import "animate.css/animate.min.css";
 
-export default function about() {
-    return (
-        <div>
-            <Nav/>
-            <div className="container my-5">
-        <h1>About</h1>
+export default function home() {
+  return (
+    <div>
+        <Body />
+        <div className="conatiner">
+        <h1>Home</h1>
+        <h4>Go to Contact Page to send email</h4>
         <p>
           Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
           Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
           Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
           Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
           <br/>
-          Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-          Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-          Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-          Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-          Lorem.<br/> ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-          Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+         placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
           Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
           Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
           Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
@@ -34,11 +30,7 @@ export default function about() {
           Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
           Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
         </p>
-      </div>
-
-
-            <Foot/>
-            
         </div>
-    )
+    </div>
+  )
 }

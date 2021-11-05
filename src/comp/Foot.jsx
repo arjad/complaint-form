@@ -24,7 +24,7 @@ export default function Foot() {
           <input type="text" className="form-control form-control-sm" placeholder="Your email"
             aria-label="Your email" aria-describedby="basic-addon2"/>
           <div className="input-group-append">
-            <button className="btn btn-sm btn-outline-white my-0" type="button">Sign up</button>
+            <button className="btn btn-sm btn-dark btn-outline-white my-0" type="button">Subscribe</button>
           </div>
         </form>
 

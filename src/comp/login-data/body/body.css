@@ -1,0 +1,13 @@
+.body{
+    /* margin-top:80px; */
+    height:590px;
+    width:100%;
+    overflow:hidden;
+    position:relative;
+}
+.logo-i{
+    position:absolute;
+    top:0px;
+    left:5%;
+    z-index:11;
+}

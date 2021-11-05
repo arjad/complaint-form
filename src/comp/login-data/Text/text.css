@@ -1,0 +1,15 @@
+.text-div{
+    background: rgba(248, 248, 248, 0.6);
+    padding:20px;
+    width:50%;
+    position:absolute;
+    top:230px;
+    left:150px;
+    z-index:99px;
+}
+.text-div h3{
+    /* opacity: 1; */
+    -webkit-text-fill-color: black;
+    /* -webkit-text-stroke-width: 1px; */
+    /* -webkit-text-stroke-color: white; */
+}

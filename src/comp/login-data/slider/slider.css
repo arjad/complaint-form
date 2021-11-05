@@ -1,0 +1,34 @@
+
+/* slider */
+.carousel{
+    /* border:2px solid red; */
+    z-index: -1;
+    height: 100%;   
+  }
+  .carousel img{
+      height:100%;
+      width:100%;
+  }
+  .slide_btn{
+      height:20px;
+      width:20px;
+      border:2px solid #12326D;
+      background-color:white;
+      border-radius:50%;
+      z-index:90;
+      margin-left:10px;
+      margin-right:10px;
+      transition-duration:0.5s;
+  }
+  .arrow{
+      font-size:20px;
+      -webkit-text-fill-color: #12326D; /* Will override color (regardless of order) */
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: white;
+  }
+  .slide_btn:hover{
+      transform:scale(1.5);
+      cursor:pointer;
+      border:2px solid #12326D;
+      background-color:#12326D;
+  }
